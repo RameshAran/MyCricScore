@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		838A13871EBD8FBA00575113 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 838A13861EBD8FBA00575113 /* main.m */; };
+		838A138A1EBD8FBA00575113 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 838A13891EBD8FBA00575113 /* AppDelegate.m */; };
+		838A138D1EBD8FBA00575113 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 838A138C1EBD8FBA00575113 /* ViewController.m */; };
+		838A13901EBD8FBA00575113 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 838A138E1EBD8FBA00575113 /* Main.storyboard */; };
+		838A13921EBD8FBA00575113 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 838A13911EBD8FBA00575113 /* Assets.xcassets */; };
+		838A13951EBD8FBA00575113 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 838A13931EBD8FBA00575113 /* LaunchScreen.storyboard */; };
+		838A13A01EBD8FBA00575113 /* MyCricScoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 838A139F1EBD8FBA00575113 /* MyCricScoreTests.m */; };
+		838A13AB1EBD8FBA00575113 /* MyCricScoreUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 838A13AA1EBD8FBA00575113 /* MyCricScoreUITests.m */; };
+		85723C1C8060AA3B725EE69C /* libPods-MyCricScore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B776BB57E456DCAFD2BA7E /* libPods-MyCricScore.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		838A139C1EBD8FBA00575113 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 838A137A1EBD8FBA00575113 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 838A13811EBD8FBA00575113;
+			remoteInfo = MyCricScore;
+		};
+		838A13A71EBD8FBA00575113 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 838A137A1EBD8FBA00575113 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 838A13811EBD8FBA00575113;
+			remoteInfo = MyCricScore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		317A879A6C913786A287C869 /* Pods-MyCricScore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCricScore.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyCricScore/Pods-MyCricScore.release.xcconfig"; sourceTree = "<group>"; };
+		838A13821EBD8FBA00575113 /* MyCricScore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCricScore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		838A13861EBD8FBA00575113 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		838A13881EBD8FBA00575113 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		838A13891EBD8FBA00575113 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		838A138B1EBD8FBA00575113 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		838A138C1EBD8FBA00575113 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		838A138F1EBD8FBA00575113 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		838A13911EBD8FBA00575113 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		838A13941EBD8FBA00575113 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		838A13961EBD8FBA00575113 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		838A139B1EBD8FBA00575113 /* MyCricScoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCricScoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		838A139F1EBD8FBA00575113 /* MyCricScoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyCricScoreTests.m; sourceTree = "<group>"; };
+		838A13A11EBD8FBA00575113 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		838A13A61EBD8FBA00575113 /* MyCricScoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCricScoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		838A13AA1EBD8FBA00575113 /* MyCricScoreUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyCricScoreUITests.m; sourceTree = "<group>"; };
+		838A13AC1EBD8FBA00575113 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C08CF3B6049D6571CCC84DE7 /* Pods-MyCricScore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCricScore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyCricScore/Pods-MyCricScore.debug.xcconfig"; sourceTree = "<group>"; };
+		D8B776BB57E456DCAFD2BA7E /* libPods-MyCricScore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyCricScore.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		838A137F1EBD8FBA00575113 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85723C1C8060AA3B725EE69C /* libPods-MyCricScore.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		838A13981EBD8FBA00575113 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		838A13A31EBD8FBA00575113 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DB97A9BD8ECAB059CA4ABB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8B776BB57E456DCAFD2BA7E /* libPods-MyCricScore.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		838A13791EBD8FBA00575113 = {
+			isa = PBXGroup;
+			children = (
+				838A13841EBD8FBA00575113 /* MyCricScore */,
+				838A139E1EBD8FBA00575113 /* MyCricScoreTests */,
+				838A13A91EBD8FBA00575113 /* MyCricScoreUITests */,
+				838A13831EBD8FBA00575113 /* Products */,
+				8E3AD3D55073C5CBAB180215 /* Pods */,
+				5DB97A9BD8ECAB059CA4ABB8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		838A13831EBD8FBA00575113 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				838A13821EBD8FBA00575113 /* MyCricScore.app */,
+				838A139B1EBD8FBA00575113 /* MyCricScoreTests.xctest */,
+				838A13A61EBD8FBA00575113 /* MyCricScoreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		838A13841EBD8FBA00575113 /* MyCricScore */ = {
+			isa = PBXGroup;
+			children = (
+				838A13881EBD8FBA00575113 /* AppDelegate.h */,
+				838A13891EBD8FBA00575113 /* AppDelegate.m */,
+				838A138B1EBD8FBA00575113 /* ViewController.h */,
+				838A138C1EBD8FBA00575113 /* ViewController.m */,
+				838A138E1EBD8FBA00575113 /* Main.storyboard */,
+				838A13911EBD8FBA00575113 /* Assets.xcassets */,
+				838A13931EBD8FBA00575113 /* LaunchScreen.storyboard */,
+				838A13961EBD8FBA00575113 /* Info.plist */,
+				838A13851EBD8FBA00575113 /* Supporting Files */,
+			);
+			path = MyCricScore;
+			sourceTree = "<group>";
+		};
+		838A13851EBD8FBA00575113 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				838A13861EBD8FBA00575113 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		838A139E1EBD8FBA00575113 /* MyCricScoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				838A139F1EBD8FBA00575113 /* MyCricScoreTests.m */,
+				838A13A11EBD8FBA00575113 /* Info.plist */,
+			);
+			path = MyCricScoreTests;
+			sourceTree = "<group>";
+		};
+		838A13A91EBD8FBA00575113 /* MyCricScoreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				838A13AA1EBD8FBA00575113 /* MyCricScoreUITests.m */,
+				838A13AC1EBD8FBA00575113 /* Info.plist */,
+			);
+			path = MyCricScoreUITests;
+			sourceTree = "<group>";
+		};
+		8E3AD3D55073C5CBAB180215 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C08CF3B6049D6571CCC84DE7 /* Pods-MyCricScore.debug.xcconfig */,
+				317A879A6C913786A287C869 /* Pods-MyCricScore.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		838A13811EBD8FBA00575113 /* MyCricScore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 838A13AF1EBD8FBA00575113 /* Build configuration list for PBXNativeTarget "MyCricScore" */;
+			buildPhases = (
+				71B4C12B9F4BD33952AD4F09 /* [CP] Check Pods Manifest.lock */,
+				838A137E1EBD8FBA00575113 /* Sources */,
+				838A137F1EBD8FBA00575113 /* Frameworks */,
+				838A13801EBD8FBA00575113 /* Resources */,
+				EFF933BF98E142E745C4420E /* [CP] Embed Pods Frameworks */,
+				32A4831F595C0718ADCC13BB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyCricScore;
+			productName = MyCricScore;
+			productReference = 838A13821EBD8FBA00575113 /* MyCricScore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		838A139A1EBD8FBA00575113 /* MyCricScoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 838A13B21EBD8FBA00575113 /* Build configuration list for PBXNativeTarget "MyCricScoreTests" */;
+			buildPhases = (
+				838A13971EBD8FBA00575113 /* Sources */,
+				838A13981EBD8FBA00575113 /* Frameworks */,
+				838A13991EBD8FBA00575113 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				838A139D1EBD8FBA00575113 /* PBXTargetDependency */,
+			);
+			name = MyCricScoreTests;
+			productName = MyCricScoreTests;
+			productReference = 838A139B1EBD8FBA00575113 /* MyCricScoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		838A13A51EBD8FBA00575113 /* MyCricScoreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 838A13B51EBD8FBA00575113 /* Build configuration list for PBXNativeTarget "MyCricScoreUITests" */;
+			buildPhases = (
+				838A13A21EBD8FBA00575113 /* Sources */,
+				838A13A31EBD8FBA00575113 /* Frameworks */,
+				838A13A41EBD8FBA00575113 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				838A13A81EBD8FBA00575113 /* PBXTargetDependency */,
+			);
+			name = MyCricScoreUITests;
+			productName = MyCricScoreUITests;
+			productReference = 838A13A61EBD8FBA00575113 /* MyCricScoreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		838A137A1EBD8FBA00575113 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Ramesh;
+				TargetAttributes = {
+					838A13811EBD8FBA00575113 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 6TYQ74384R;
+						ProvisioningStyle = Automatic;
+					};
+					838A139A1EBD8FBA00575113 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 6TYQ74384R;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 838A13811EBD8FBA00575113;
+					};
+					838A13A51EBD8FBA00575113 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 6TYQ74384R;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 838A13811EBD8FBA00575113;
+					};
+				};
+			};
+			buildConfigurationList = 838A137D1EBD8FBA00575113 /* Build configuration list for PBXProject "MyCricScore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 838A13791EBD8FBA00575113;
+			productRefGroup = 838A13831EBD8FBA00575113 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				838A13811EBD8FBA00575113 /* MyCricScore */,
+				838A139A1EBD8FBA00575113 /* MyCricScoreTests */,
+				838A13A51EBD8FBA00575113 /* MyCricScoreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		838A13801EBD8FBA00575113 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				838A13951EBD8FBA00575113 /* LaunchScreen.storyboard in Resources */,
+				838A13921EBD8FBA00575113 /* Assets.xcassets in Resources */,
+				838A13901EBD8FBA00575113 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		838A13991EBD8FBA00575113 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		838A13A41EBD8FBA00575113 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32A4831F595C0718ADCC13BB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyCricScore/Pods-MyCricScore-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71B4C12B9F4BD33952AD4F09 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EFF933BF98E142E745C4420E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyCricScore/Pods-MyCricScore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		838A137E1EBD8FBA00575113 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				838A138D1EBD8FBA00575113 /* ViewController.m in Sources */,
+				838A138A1EBD8FBA00575113 /* AppDelegate.m in Sources */,
+				838A13871EBD8FBA00575113 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		838A13971EBD8FBA00575113 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				838A13A01EBD8FBA00575113 /* MyCricScoreTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		838A13A21EBD8FBA00575113 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				838A13AB1EBD8FBA00575113 /* MyCricScoreUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		838A139D1EBD8FBA00575113 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 838A13811EBD8FBA00575113 /* MyCricScore */;
+			targetProxy = 838A139C1EBD8FBA00575113 /* PBXContainerItemProxy */;
+		};
+		838A13A81EBD8FBA00575113 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 838A13811EBD8FBA00575113 /* MyCricScore */;
+			targetProxy = 838A13A71EBD8FBA00575113 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		838A138E1EBD8FBA00575113 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				838A138F1EBD8FBA00575113 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		838A13931EBD8FBA00575113 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				838A13941EBD8FBA00575113 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		838A13AD1EBD8FBA00575113 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		838A13AE1EBD8FBA00575113 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		838A13B01EBD8FBA00575113 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C08CF3B6049D6571CCC84DE7 /* Pods-MyCricScore.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6TYQ74384R;
+				INFOPLIST_FILE = MyCricScore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cricscore.MyCricScore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		838A13B11EBD8FBA00575113 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 317A879A6C913786A287C869 /* Pods-MyCricScore.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6TYQ74384R;
+				INFOPLIST_FILE = MyCricScore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cricscore.MyCricScore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		838A13B31EBD8FBA00575113 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6TYQ74384R;
+				INFOPLIST_FILE = MyCricScoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cricscore.MyCricScoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyCricScore.app/MyCricScore";
+			};
+			name = Debug;
+		};
+		838A13B41EBD8FBA00575113 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6TYQ74384R;
+				INFOPLIST_FILE = MyCricScoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cricscore.MyCricScoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyCricScore.app/MyCricScore";
+			};
+			name = Release;
+		};
+		838A13B61EBD8FBA00575113 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6TYQ74384R;
+				INFOPLIST_FILE = MyCricScoreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cricscore.MyCricScoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyCricScore;
+			};
+			name = Debug;
+		};
+		838A13B71EBD8FBA00575113 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6TYQ74384R;
+				INFOPLIST_FILE = MyCricScoreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cricscore.MyCricScoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyCricScore;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		838A137D1EBD8FBA00575113 /* Build configuration list for PBXProject "MyCricScore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				838A13AD1EBD8FBA00575113 /* Debug */,
+				838A13AE1EBD8FBA00575113 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		838A13AF1EBD8FBA00575113 /* Build configuration list for PBXNativeTarget "MyCricScore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				838A13B01EBD8FBA00575113 /* Debug */,
+				838A13B11EBD8FBA00575113 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		838A13B21EBD8FBA00575113 /* Build configuration list for PBXNativeTarget "MyCricScoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				838A13B31EBD8FBA00575113 /* Debug */,
+				838A13B41EBD8FBA00575113 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		838A13B51EBD8FBA00575113 /* Build configuration list for PBXNativeTarget "MyCricScoreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				838A13B61EBD8FBA00575113 /* Debug */,
+				838A13B71EBD8FBA00575113 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 838A137A1EBD8FBA00575113 /* Project object */;
+}

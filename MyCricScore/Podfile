@@ -1,0 +1,4 @@
+target 'MyCricScore' do
+  pod 'SocketRocket'
+end
+
